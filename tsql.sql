@@ -1,0 +1,6 @@
+SELECT *
+FROM Employee
+WHERE Employee.Id = 1
+GROUP BY 
+HAVING
+ORDER BY
