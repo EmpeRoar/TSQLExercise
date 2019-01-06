@@ -1,5 +1,5 @@
 ### TSQLExercise
-```tsql
+```sql
 SELECT country, YEAR(hiredate) as yearhired, COUNT(*) AS numemployees
 FROM HR.Employees
 WHERE hiredate >= '20140101'
